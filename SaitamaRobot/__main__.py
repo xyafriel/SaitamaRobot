@@ -52,10 +52,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+━━━━━━━━━━━━━━━━━━━━━━━
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+I am an Anime themed group management bot with a lot Special Features.
+You can find the list of available commands with klik 👉 /help
+
+╾─────────────────────╼
+MØĐ ɃɎ [XyL 𝟬⃝𝟮](t.me/XyL02)
+━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 HELP_STRINGS = """
@@ -201,16 +205,16 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Makise Kurisu to your group",
+                            text="🤖 Add MakiseBOT to your group 🤖",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🎀 Support Group 🎀",
+                             text="🔥 Support Group ",
                              url=f"https://t.me/joinchat/SKIlU0UfcPfbPcNTn5YlLw"),
                          InlineKeyboardButton(
-                             text="🔔 Updates Channel 🔔",
+                             text="🔔 Channel ",
                              url="https://t.me/happypost")
                      ],
                      [
