@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🔥 Support Group ",
-                             url=f"https://t.me/joinchat/SKIlU0UfcPfbPcNTn5YlLw"),
+                             url=f"https://t.me/joinchat/SKIlU1Ji0YWZyjYjbvpmUA"),
                          InlineKeyboardButton(
                              text="🔔 Channel ",
                              url="https://t.me/happypost")
